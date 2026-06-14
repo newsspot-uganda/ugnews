@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEWS SPOT UGANDA - Breaking News, Uganda News, Politics, Business, Sports & More</title>
+<meta name="description" content="NEWS SPOT UGANDA delivers breaking news, politics, business, education, sports, technology, health, entertainment, and international news from Western Uganda.">
+<meta name="keywords" content="Uganda news, breaking news Uganda, politics Uganda, business Uganda, sports Uganda, Kampala news">
+<meta name="author" content="NEWS SPOT UGANDA">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="NEWS SPOT UGANDA - Your Trusted News Source">
+<meta property="og:description" content="Breaking News, Uganda News, Politics, Business, Sports & More">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://images.pexels.com">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet"></noscript>
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--primary:#0A3D62;--secondary:#1E90FF;--accent:#FFD700;--bg:#f0f2f5;--card-bg:rgba(255,255,255,0.85);--text:#1a1a2e;--text-secondary:#555;--glass:rgba(255,255,255,0.15);--glass-border:rgba(255,255,255,0.25);--shadow:0 8px 32px rgba(0,0,0,0.1);--nav-bg:rgba(10,61,98,0.88)}
+[data-theme="dark"]{--bg:#0d1117;--card-bg:rgba(30,35,50,0.85);--text:#e6e6e6;--text-secondary:#aaa;--glass:rgba(30,35,50,0.4);--glass-border:rgba(60,70,90,0.5);--shadow:0 8px 32px rgba(0,0,0,0.4);--nav-bg:rgba(5,15,30,0.92)}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden;transition:background .3s,color .3s}
+a{text-decoration:none;color:inherit}img{max-width:100%;display:block}button{cursor:pointer;border:none;outline:none;font-family:inherit}
+.container{max-width:1280px;margin:0 auto;padding:0 16px}
+h1,h2,h3,h4{font-family:'Playfair Display',Georgia,serif}
+::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--secondary);border-radius:6px}
+@keyframes fadeInUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+@keyframes tickerScroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.animate-in{opacity:0;transform:translateY(20px);transition:opacity .5s,transform .5s}.animate-in.visible{opacity:1;transform:translateY(0)}
+.ticker-bar{background:linear-gradient(90deg,#D90000,#8B0000);color:#fff;padding:5px 0;font-size:12px;font-weight:600;overflow:hidden;position:relative;z-index:101}
+.ticker-bar .label{position:absolute;left:0;top:0;bottom:0;background:#D90000;padding:5px 12px;z-index:2;display:flex;align-items:center;gap:5px;font-weight:800;text-transform:uppercase;white-space:nowrap;animation:pulse 1.5s infinite}
+.ticker-content{display:flex;white-space:nowrap;animation:tickerScroll 30s linear infinite;padding-left:160px;will-change:transform}
+.ticker-content span{padding:0 35px}
+.navbar{position:sticky;top:0;z-index:100;background:var(--nav-bg);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--glass-border);transition:box-shadow .3s}
+.navbar.scrolled{box-shadow:0 4px 20px rgba(0,0,0,.3)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:6px 16px;max-width:1400px;margin:0 auto}
+.logo{display:flex;align-items:center;gap:8px}
+.logo-icon{width:42px;height:42px;background:linear-gradient(135deg,#FCDC04,#D90000);border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:15px;color:#fff;box-shadow:0 3px 12px rgba(217,0,0,.3)}
+.logo-text{display:flex;flex-direction:column;line-height:1.1}
+.logo-text .name{font-family:'Playfair Display',serif;font-weight:800;font-size:16px;color:#fff}
+.logo-text .tagline{font-size:8px;color:var(--accent);text-transform:uppercase;letter-spacing:1.5px;font-weight:600}
+.nav-links{display:flex;align-items:center;gap:0;list-style:none}
+.nav-links li a{padding:6px 10px;color:rgba(255,255,255,.85);font-size:12px;font-weight:500;transition:all .2s;border-radius:5px}
+.nav-links li a:hover,.nav-links li a.active{color:#fff;background:rgba(255,255,255,.1)}
+.nav-actions{display:flex;align-items:center;gap:6px}
+.nav-btn{width:34px;height:34px;border-radius:8px;background:rgba(255,255,255,.1);color:#fff;display:flex;align-items:center;justify-content:center;transition:all .2s;font-size:14px;border:1px solid rgba(255,255,255,.1)}
+.nav-btn:hover{background:rgba(255,255,255,.2);transform:scale(1.05)}
+.admin-btn{background:rgba(255,215,0,.15);color:var(--accent)}
+.hamburger{display:none;flex-direction:column;gap:4px;background:none;padding:6px}
+.hamburger span{width:20px;height:2px;background:#fff;border-radius:2px}
+.mobile-menu{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(10,61,98,.97);z-index:200;flex-direction:column;padding:70px 24px 24px;backdrop-filter:blur(16px)}
+.mobile-menu.open{display:flex;animation:fadeInUp .3s}
+.mobile-menu .close-btn{position:absolute;top:16px;right:16px;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.1);color:#fff;font-size:18px;display:flex;align-items:center;justify-content:center}
+.mobile-menu a{color:#fff;font-size:16px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.1);display:block;font-weight:500}
+.hero{position:relative;min-height:65vh;overflow:hidden;display:flex;align-items:center;content-visibility:auto;contain-intrinsic-size:0 500px}
+.hero-bg{position:absolute;inset:0;background:linear-gradient(135deg,rgba(10,61,98,.9),rgba(30,144,255,.7)),url('https://images.pexels.com/photos/38101663/pexels-photo-38101663.jpeg?auto=compress&cs=tinysrgb&w=1200&h=600&fit=crop') center/cover}
+.hero-content{position:relative;z-index:2;max-width:1280px;margin:0 auto;padding:50px 20px;display:grid;grid-template-columns:1.3fr 1fr;gap:30px;align-items:center;width:100%}
+.hero-main{animation:fadeInUp .6s ease-out}
+.hero-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(217,0,0,.9);color:#fff;padding:5px 14px;border-radius:20px;font-size:11px;font-weight:700;text-transform:uppercase;margin-bottom:14px;animation:pulse 2s infinite}
+.hero-title{font-size:clamp(26px,4.5vw,46px);color:#fff;line-height:1.15;margin-bottom:14px}
+.hero-title span{color:var(--accent)}
+.hero-desc{color:rgba(255,255,255,.85);font-size:15px;line-height:1.6;margin-bottom:20px;max-width:500px}
+.hero-btns{display:flex;gap:10px;flex-wrap:wrap}
+.btn{padding:11px 24px;border-radius:8px;font-weight:600;font-size:13px;transition:all .2s;display:inline-flex;align-items:center;gap:6px}
+.btn-primary{background:linear-gradient(135deg,var(--accent),#FFA500);color:#000;box-shadow:0 4px 15px rgba(255,215,0,.3)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(255,215,0,.4)}
+.btn-outline{border:2px solid rgba(255,255,255,.5);color:#fff;background:0 0}
+.btn-outline:hover{background:rgba(255,255,255,.1);border-color:#fff}
+.hero-cards{display:flex;flex-direction:column;gap:12px;animation:fadeInUp .8s ease-out .2s both}
+.hero-card{background:rgba(255,255,255,.1);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.15);border-radius:12px;padding:14px;display:flex;gap:12px;align-items:center;transition:all .2s;cursor:pointer}
+.hero-card:hover{background:rgba(255,255,255,.15);transform:translateX(4px)}
+.hero-card img{width:70px;height:50px;border-radius:8px;object-fit:cover;flex-shrink:0}
+.hero-card-text h4{color:#fff;font-size:13px;font-family:'Inter',sans-serif;font-weight:600;line-height:1.3}
+.hero-card-text p{color:rgba(255,255,255,.6);font-size:10px;margin-top:3px}
+.section{padding:40px 0;content-visibility:auto;contain-intrinsic-size:0 500px}
+.section-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;flex-wrap:wrap;gap:10px}
+.section-title{font-size:clamp(20px,2.5vw,28px);position:relative;display:flex;align-items:center;gap:10px}
+.section-title::after{content:'';flex:1;height:2px;min-width:50px;background:linear-gradient(90deg,var(--accent),transparent);border-radius:2px}
+.section-title .icon{width:36px;height:36px;border-radius:8px;background:linear-gradient(135deg,var(--primary),var(--secondary));display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px}
+.view-all{padding:7px 16px;border-radius:6px;border:1px solid var(--secondary);color:var(--secondary);font-weight:600;font-size:12px;transition:all .2s;background:0 0}
+.view-all:hover{background:var(--secondary);color:#fff}
+.news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px}
+.news-card{background:var(--card-bg);backdrop-filter:blur(8px);border:1px solid var(--glass-border);border-radius:14px;overflow:hidden;transition:transform .3s,box-shadow .3s;position:relative;box-shadow:var(--shadow);contain:layout style paint}
+.news-card:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(0,0,0,.12)}
+.news-card-img{position:relative;overflow:hidden;height:180px}
+.news-card-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.news-card:hover .news-card-img img{transform:scale(1.05)}
+.news-card-img .category-badge{position:absolute;top:10px;left:10px;background:var(--secondary);color:#fff;padding:3px 10px;border-radius:15px;font-size:10px;font-weight:700;text-transform:uppercase}
+.news-card-img .video-badge{position:absolute;top:10px;right:10px;background:rgba(217,0,0,.9);color:#fff;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px}
+.news-card-body{padding:14px}
+.news-card-body h3{font-size:15px;font-family:'Inter',sans-serif;font-weight:700;line-height:1.4;margin-bottom:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.news-card-body p{color:var(--text-secondary);font-size:12px;line-height:1.5;margin-bottom:10px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.news-card-meta{display:flex;align-items:center;justify-content:space-between;font-size:10px;color:var(--text-secondary)}
+.read-more-btn{color:var(--secondary);font-weight:600;font-size:11px;display:flex;align-items:center;gap:3px;transition:all .2s;background:0 0;padding:0}
+.read-more-btn:hover{gap:6px}
+.breaking-badge{background:linear-gradient(90deg,#D90000,#FF4444);color:#fff;padding:3px 10px;border-radius:15px;font-size:9px;font-weight:800;text-transform:uppercase;animation:pulse 1.5s infinite}
+.featured-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:20px}
+.featured-main{border-radius:16px;overflow:hidden;position:relative;min-height:380px;display:flex;align-items:flex-end;cursor:pointer}
+.featured-main img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.featured-main:hover img{transform:scale(1.03)}
+.featured-main .overlay{position:relative;z-index:2;padding:24px;background:linear-gradient(transparent,rgba(0,0,0,.85));width:100%}
+.featured-main .overlay h2{color:#fff;font-size:clamp(16px,2.2vw,24px);margin-bottom:6px}
+.featured-main .overlay p{color:rgba(255,255,255,.7);font-size:13px}
+.featured-sidebar{display:flex;flex-direction:column;gap:12px}
+.featured-side-card{display:flex;gap:12px;padding:12px;background:var(--card-bg);backdrop-filter:blur(8px);border:1px solid var(--glass-border);border-radius:12px;transition:all .2s;cursor:pointer;align-items:center;box-shadow:var(--shadow)}
+.featured-side-card:hover{transform:translateX(3px)}
+.featured-side-card img{width:80px;height:60px;border-radius:8px;object-fit:cover;flex-shrink:0}
+.featured-side-card h4{font-size:13px;font-family:'Inter',sans-serif;font-weight:600;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.featured-side-card .meta{font-size:10px;color:var(--text-secondary);margin-top:3px}
+.subscribe-section{background:linear-gradient(135deg,var(--primary),var(--secondary));border-radius:16px;padding:40px 24px;text-align:center;color:#fff;position:relative;overflow:hidden}
+.subscribe-section::before{content:'';position:absolute;top:-50%;right:-20%;width:300px;height:300px;border-radius:50%;background:rgba(255,215,0,.1)}
+.subscribe-section h2{font-size:clamp(20px,2.5vw,30px);margin-bottom:10px}
+.subscribe-section p{opacity:.85;margin-bottom:20px;max-width:450px;margin-left:auto;margin-right:auto;font-size:14px}
+.subscribe-form{display:flex;gap:8px;max-width:480px;margin:0 auto;flex-wrap:wrap;justify-content:center}
+.subscribe-form input{flex:1;min-width:180px;padding:12px 16px;border-radius:10px;border:none;font-size:13px;background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.2)}
+.subscribe-form input::placeholder{color:rgba(255,255,255,.6)}
+.subscribe-form button{padding:12px 24px;border-radius:10px;background:var(--accent);color:#000;font-weight:700;font-size:13px;transition:all .2s}
+.subscribe-form button:hover{transform:scale(1.03)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.contact-info{display:flex;flex-direction:column;gap:16px}
+.contact-item{display:flex;gap:12px;align-items:flex-start;padding:14px;background:var(--card-bg);border-radius:12px;border:1px solid var(--glass-border);backdrop-filter:blur(8px)}
+.contact-item .icon-box{width:40px;height:40px;border-radius:8px;background:linear-gradient(135deg,var(--primary),var(--secondary));display:flex;align-items:center;justify-content:center;color:#fff;font-size:16px;flex-shrink:0}
+.contact-item h4{font-family:'Inter',sans-serif;font-size:13px;font-weight:700}
+.contact-item p{font-size:12px;color:var(--text-secondary);margin-top:2px}
+.contact-form{display:flex;flex-direction:column;gap:12px}
+.contact-form input,.contact-form textarea{padding:12px 14px;border-radius:10px;border:1px solid var(--glass-border);background:var(--card-bg);color:var(--text);font-size:13px;font-family:'Inter',sans-serif;backdrop-filter:blur(8px);transition:border-color .2s}
+.contact-form input:focus,.contact-form textarea:focus{border-color:var(--secondary);outline:none}
+.contact-form textarea{resize:vertical;min-height:100px}
+.contact-form button{padding:12px 24px;border-radius:10px;background:linear-gradient(135deg,var(--primary),var(--secondary));color:#fff;font-weight:700;font-size:13px;transition:all .2s}
+.contact-form button:hover{transform:translateY(-2px)}
+.search-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:300;backdrop-filter:blur(8px);flex-direction:column;align-items:center;justify-content:flex-start;padding:80px 16px 16px}
+.search-overlay.open{display:flex}
+.search-overlay .close-search{position:absolute;top:16px;right:24px;color:#fff;font-size:26px;background:none}
+.search-box{width:100%;max-width:600px;position:relative}
+.search-box input{width:100%;padding:16px 50px 16px 20px;border-radius:12px;border:2px solid rgba(255,255,255,.2);background:rgba(255,255,255,.1);color:#fff;font-size:18px}
+.search-box input::placeholder{color:rgba(255,255,255,.5)}
+.search-box i{position:absolute;right:16px;top:50%;transform:translateY(-50%);color:rgba(255,255,255,.5);font-size:18px}
+.search-results{width:100%;max-width:600px;margin-top:16px;max-height:55vh;overflow-y:auto}
+.search-result-item{display:flex;gap:12px;padding:12px;background:rgba(255,255,255,.08);border-radius:10px;margin-bottom:8px;cursor:pointer;transition:all .2s;align-items:center}
+.search-result-item:hover{background:rgba(255,255,255,.12)}
+.search-result-item img{width:60px;height:45px;border-radius:6px;object-fit:cover;flex-shrink:0}
+.search-result-item h4{color:#fff;font-family:'Inter',sans-serif;font-size:13px;font-weight:600}
+.search-result-item p{color:rgba(255,255,255,.5);font-size:11px;margin-top:3px}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:400;backdrop-filter:blur(4px);justify-content:center;align-items:center;padding:16px}
+.modal-overlay.open{display:flex}
+.modal-content{background:var(--card-bg);backdrop-filter:blur(16px);border:1px solid var(--glass-border);border-radius:16px;max-width:750px;width:100%;max-height:88vh;overflow-y:auto;position:relative}
+.modal-close{position:absolute;top:12px;right:12px;z-index:5;width:32px;height:32px;border-radius:50%;background:rgba(0,0,0,.5);color:#fff;display:flex;align-items:center;justify-content:center;font-size:16px}
+.modal-img{width:100%;height:260px;object-fit:cover;border-radius:16px 16px 0 0}
+.modal-body{padding:24px}
+.modal-body .cat{color:var(--secondary);font-size:11px;font-weight:700;text-transform:uppercase;margin-bottom:6px}
+.modal-body h2{font-size:clamp(18px,2.5vw,26px);margin-bottom:10px;line-height:1.3}
+.modal-body .meta-line{font-size:12px;color:var(--text-secondary);margin-bottom:16px;display:flex;gap:14px}
+.modal-body .content{font-size:14px;line-height:1.7;color:var(--text-secondary)}
+.modal-body .video-container{margin:16px 0;border-radius:10px;overflow:hidden;position:relative;padding-top:56.25%}
+.modal-body .video-container iframe,.modal-body .video-container video{position:absolute;top:0;left:0;width:100%;height:100%;border:0;border-radius:10px}
+.admin-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:500;backdrop-filter:blur(8px)}
+.admin-overlay.open{display:block}
+.admin-login{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:var(--card-bg);backdrop-filter:blur(16px);border:1px solid var(--glass-border);border-radius:16px;padding:32px;width:100%;max-width:380px;text-align:center}
+.admin-login h2{margin-bottom:6px;font-size:22px}
+.admin-login p{color:var(--text-secondary);font-size:12px;margin-bottom:20px}
+.admin-login .form-group{margin-bottom:12px;text-align:left}
+.admin-login .form-group label{font-size:12px;font-weight:600;display:block;margin-bottom:3px}
+.admin-login .form-group input{width:100%;padding:10px 14px;border-radius:8px;border:1px solid var(--glass-border);background:var(--glass);color:var(--text);font-size:13px}
+.admin-login .login-btn{width:100%;padding:12px;border-radius:10px;background:linear-gradient(135deg,var(--primary),var(--secondary));color:#fff;font-weight:700;font-size:14px;margin-top:8px;transition:all .2s}
+.admin-login .error-msg{color:#D90000;font-size:12px;margin-top:8px;display:none}
+.admin-dashboard{display:none;position:fixed;inset:0;background:var(--bg);z-index:500;overflow-y:auto}
+.admin-dashboard.open{display:block}
+.admin-top-bar{background:var(--nav-bg);backdrop-filter:blur(16px);padding:12px 20px;display:flex;align-items:center;justify-content:space-between;color:#fff;position:sticky;top:0;z-index:10}
+.admin-top-bar h3{font-family:'Inter',sans-serif;font-size:14px}
+.admin-top-bar .admin-actions{display:flex;gap:8px}
+.admin-top-bar button{padding:6px 14px;border-radius:6px;font-size:12px;font-weight:600;transition:all .2s}
+.admin-body{padding:20px;max-width:1300px;margin:0 auto}
+.admin-stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px;margin-bottom:24px}
+.stat-card{background:var(--card-bg);backdrop-filter:blur(8px);border:1px solid var(--glass-border);border-radius:14px;padding:16px;text-align:center}
+.stat-card .stat-num{font-size:28px;font-weight:800;color:var(--secondary)}
+.stat-card .stat-label{font-size:12px;color:var(--text-secondary);margin-top:3px}
+.admin-tabs{display:flex;gap:5px;margin-bottom:20px;flex-wrap:wrap}
+.admin-tab{padding:8px 16px;border-radius:8px;background:var(--card-bg);border:1px solid var(--glass-border);font-size:12px;font-weight:600;transition:all .2s;color:var(--text)}
+.admin-tab.active,.admin-tab:hover{background:linear-gradient(135deg,var(--primary),var(--secondary));color:#fff;border-color:transparent}
+.admin-panel-content{background:var(--card-bg);backdrop-filter:blur(8px);border:1px solid var(--glass-border);border-radius:14px;padding:20px}
+.admin-form{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.admin-form .full-width{grid-column:1/-1}
+.admin-form label{font-size:12px;font-weight:600;display:block;margin-bottom:3px}
+.admin-form input,.admin-form select,.admin-form textarea{width:100%;padding:10px 14px;border-radius:8px;border:1px solid var(--glass-border);background:var(--glass);color:var(--text);font-size:13px;font-family:'Inter',sans-serif}
+.admin-form input[type="file"]{padding:8px;font-size:12px}
+.admin-form textarea{resize:vertical;min-height:120px}
+.publish-btn{padding:12px 24px;border-radius:10px;background:linear-gradient(135deg,#27ae60,#2ecc71);color:#fff;font-weight:700;font-size:13px;transition:all .2s}
+.publish-btn:hover{transform:translateY(-2px)}
+.publish-btn:disabled{opacity:.6;cursor:not-allowed;transform:none}
+.admin-articles-list{margin-top:16px}
+.admin-article-item{display:flex;justify-content:space-between;align-items:center;padding:12px;border-bottom:1px solid var(--glass-border);gap:10px}
+.admin-article-item:last-child{border-bottom:none}
+.admin-article-item h4{font-family:'Inter',sans-serif;font-size:13px;font-weight:600;flex:1}
+.admin-article-item .actions{display:flex;gap:6px}
+.admin-article-item .actions button{padding:5px 12px;border-radius:6px;font-size:11px;font-weight:600;transition:all .2s}
+.btn-edit{background:rgba(30,144,255,.15);color:var(--secondary)}.btn-delete{background:rgba(217,0,0,.15);color:#D90000}
+.btn-edit:hover{background:var(--secondary);color:#fff}.btn-delete:hover{background:#D90000;color:#fff}
+.file-preview{margin-top:8px;max-width:200px;border-radius:8px;overflow:hidden}
+.file-preview img,.file-preview video{width:100%;height:auto;display:block}
+.upload-progress{height:4px;background:var(--glass-border);border-radius:4px;margin-top:6px;overflow:hidden}
+.upload-progress-bar{height:100%;background:linear-gradient(90deg,var(--secondary),var(--accent));width:0;transition:width .3s}
+.ad-section{background:var(--card-bg);backdrop-filter:blur(8px);border:1px solid var(--glass-border);border-radius:14px;padding:24px}
+.ads-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;margin-top:20px}
+.ad-card{background:var(--card-bg);border:1px solid var(--glass-border);border-radius:12px;overflow:hidden;transition:all .3s}
+.ad-card:hover{transform:translateY(-3px);box-shadow:0 8px 30px rgba(0,0,0,.1)}
+.ad-card img{width:100%;height:160px;object-fit:cover}
+.ad-card-body{padding:14px}
+.ad-card-body h4{font-family:'Inter',sans-serif;font-size:14px;font-weight:700;margin-bottom:4px}
+.ad-card-body p{font-size:12px;color:var(--text-secondary);margin-bottom:8px}
+.ad-card-body a{display:inline-block;padding:6px 14px;background:var(--secondary);color:#fff;border-radius:6px;font-size:11px;font-weight:600}
+.ad-placeholder{border:2px dashed var(--glass-border);border-radius:10px;padding:30px 16px;color:var(--text-secondary);font-size:13px;text-align:center}
+.footer{background:linear-gradient(180deg,var(--primary),#061d30);color:#fff;padding:40px 0 0;margin-top:30px}
+.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;padding-bottom:30px}
+.footer-col h4{font-family:'Inter',sans-serif;font-size:14px;font-weight:700;margin-bottom:14px;position:relative;padding-bottom:8px}
+.footer-col h4::after{content:'';position:absolute;bottom:0;left:0;width:35px;height:2px;background:var(--accent);border-radius:2px}
+.footer-col p{font-size:12px;color:rgba(255,255,255,.6);line-height:1.6}
+.footer-col ul{list-style:none}
+.footer-col ul li{margin-bottom:6px}
+.footer-col ul li a{font-size:12px;color:rgba(255,255,255,.6);transition:all .2s;display:flex;align-items:center;gap:5px}
+.footer-col ul li a:hover{color:var(--accent);padding-left:3px}
+.footer-social{display:flex;gap:8px;margin-top:12px}
+.footer-social a{width:34px;height:34px;border-radius:8px;background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;transition:all .2s;font-size:14px}
+.footer-social a:hover{background:var(--accent);color:#000;transform:translateY(-2px)}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding:14px 0;text-align:center;font-size:12px;color:rgba(255,255,255,.5)}
+.footer-bottom .ug-colors{display:flex;justify-content:center;gap:0;margin-bottom:8px}
+.footer-bottom .ug-colors span{height:3px;flex:1;max-width:60px}
+.back-to-top{position:fixed;bottom:20px;right:20px;width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--primary),var(--secondary));color:#fff;display:none;align-items:center;justify-content:center;font-size:18px;z-index:90;transition:all .2s;box-shadow:0 4px 15px rgba(30,144,255,.3)}
+.back-to-top.visible{display:flex}
+.back-to-top:hover{transform:translateY(-3px)}
+.toast{position:fixed;bottom:70px;right:20px;background:linear-gradient(135deg,#27ae60,#2ecc71);color:#fff;padding:12px 20px;border-radius:10px;font-size:13px;font-weight:600;z-index:600;display:none;box-shadow:0 4px 15px rgba(39,174,96,.3)}
+.toast.error{background:linear-gradient(135deg,#c0392b,#e74c3c)}
+.toast.show{display:block;animation:fadeInUp .3s}
+@media(max-width:1024px){.nav-links{display:none}.hamburger{display:flex}.hero-content{grid-template-columns:1fr}.hero-cards{display:none}.featured-grid{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr}.admin-form{grid-template-columns:1fr}}
+@media(max-width:768px){.news-grid{grid-template-columns:1fr}.hero{min-height:55vh}.hero-title{font-size:26px}.ads-grid{grid-template-columns:1fr}}
+@media(max-width:480px){.nav-inner{padding:6px 10px}.logo-icon{width:36px;height:36px;font-size:13px}.logo-text .name{font-size:14px}.section{padding:24px 0}.subscribe-section{padding:24px 14px}}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
+</head>
+<body>
+<div class="ticker-bar">
+<div class="label"><i class="fas fa-bolt"></i> BREAKING</div>
+<div class="ticker-content" id="tickerContent">
+<span>🔴 Welcome to NEWS SPOT UGANDA - Your trusted source for Ugandan news</span>
+<span>🔴 Stay updated with the latest from politics, business, sports & more</span>
+<span>🔴 Subscribe to our newsletter for daily news digest</span>
+<span>🔴 Welcome to NEWS SPOT UGANDA - Your trusted source for Ugandan news</span>
+<span>🔴 Stay updated with the latest from politics, business, sports & more</span>
+</div>
+</div>
+<nav class="navbar" id="navbar">
+<div class="nav-inner">
+<a href="#home" class="logo">
+<div class="logo-icon">NS</div>
+<div class="logo-text"><span class="name">NEWS SPOT</span><span class="tagline">UGANDA</span></div>
+</a>
+<ul class="nav-links">
+<li><a href="#home" class="active">Home</a></li>
+<li><a href="#uganda-news">Uganda</a></li>
+<li><a href="#politics">Politics</a></li>
+<li><a href="#business">Business</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#sports">Sports</a></li>
+<li><a href="#technology">Tech</a></li>
+<li><a href="#health">Health</a></li>
+<li><a href="#entertainment">Entertainment</a></li>
+<li><a href="#international">World</a></li>
+<li><a href="#ads">Ads</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<div class="nav-actions">
+<button class="nav-btn" onclick="openSearch()" title="Search"><i class="fas fa-search"></i></button>
+<button class="nav-btn" onclick="toggleTheme()" title="Theme" id="themeBtn"><i class="fas fa-moon"></i></button>
+<button class="nav-btn admin-btn" onclick="openAdmin()" title="Admin"><i class="fas fa-user-shield"></i></button>
+<button class="hamburger" onclick="toggleMobileMenu()"><span></span><span></span><span></span></button>
+</div>
+</div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+<button class="close-btn" onclick="toggleMobileMenu()"><i class="fas fa-times"></i></button>
+<a href="#home" onclick="toggleMobileMenu()">Home</a>
+<a href="#uganda-news" onclick="toggleMobileMenu()">Uganda News</a>
+<a href="#politics" onclick="toggleMobileMenu()">Politics</a>
+<a href="#business" onclick="toggleMobileMenu()">Business</a>
+<a href="#education" onclick="toggleMobileMenu()">Education</a>
+<a href="#sports" onclick="toggleMobileMenu()">Sports</a>
+<a href="#technology" onclick="toggleMobileMenu()">Technology</a>
+<a href="#health" onclick="toggleMobileMenu()">Health</a>
+<a href="#entertainment" onclick="toggleMobileMenu()">Entertainment</a>
+<a href="#international" onclick="toggleMobileMenu()">International</a>
+<a href="#ads" onclick="toggleMobileMenu()">Advertisements</a>
+<a href="#contact" onclick="toggleMobileMenu()">Contact</a>
+</div>
+<div class="search-overlay" id="searchOverlay">
+<button class="close-search" onclick="closeSearch()"><i class="fas fa-times"></i></button>
+<div class="search-box">
+<input type="text" id="searchInput" placeholder="Search news..." oninput="performSearch(this.value)">
+<i class="fas fa-search"></i>
+</div>
+<div class="search-results" id="searchResults"></div>
+</div>
+<div class="modal-overlay" id="articleModal">
+<div class="modal-content" id="modalContent">
+<button class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+<img class="modal-img" id="modalImg" src="" alt="">
+<div class="modal-body">
+<div class="cat" id="modalCat"></div>
+<h2 id="modalTitle"></h2>
+<div class="meta-line"><span id="modalDate"></span><span id="modalAuthor"></span></div>
+<div id="modalVideo"></div>
+<div class="content" id="modalBody"></div>
+</div>
+</div>
+</div>
+<div class="admin-overlay" id="adminOverlay">
+<div class="admin-login">
+<h2><i class="fas fa-user-shield" style="color:var(--secondary);margin-right:6px;"></i>Admin</h2>
+<p>Secure access for authorized personnel only.</p>
+<div class="form-group"><label>Email</label><input type="email" id="adminEmail" placeholder="Admin email"></div>
+<div class="form-group"><label>Password</label><input type="password" id="adminPassword" placeholder="Password"></div>
+<button class="login-btn" onclick="adminLogin()"><i class="fas fa-sign-in-alt"></i> Sign In</button>
+<div class="error-msg" id="loginError">Invalid credentials.</div>
+<button style="background:none;color:var(--text-secondary);font-size:12px;margin-top:12px;" onclick="closeAdmin()"><i class="fas fa-arrow-left"></i> Back</button>
+</div>
+</div>
+<div class="admin-dashboard" id="adminDashboard">
+<div class="admin-top-bar">
+<h3><i class="fas fa-tachometer-alt" style="margin-right:6px;"></i>Admin Dashboard</h3>
+<div class="admin-actions">
+<button style="background:rgba(255,255,255,.1);color:#fff;" onclick="closeDashboard()"><i class="fas fa-eye"></i> Site</button>
+<button style="background:rgba(217,0,0,.3);color:#fff;" onclick="adminLogout()"><i class="fas fa-sign-out-alt"></i> Logout</button>
+</div>
+</div>
+<div class="admin-body">
+<div class="admin-stats">
+<div class="stat-card"><div class="stat-num" id="statArticles">0</div><div class="stat-label">Articles</div></div>
+<div class="stat-card"><div class="stat-num" id="statAds">0</div><div class="stat-label">Adverts</div></div>
+<div class="stat-card"><div class="stat-num" id="statSubscribers">0</div><div class="stat-label">Subscribers</div></div>
+<div class="stat-card"><div class="stat-num" id="statViews">0</div><div class="stat-label">Views</div></div>
+</div>
+<div class="admin-tabs">
+<button class="admin-tab active" onclick="switchAdminTab('publish',this)"><i class="fas fa-plus"></i> Publish</button>
+<button class="admin-tab" onclick="switchAdminTab('articles',this)"><i class="fas fa-newspaper"></i> Articles</button>
+<button class="admin-tab" onclick="switchAdminTab('adverts',this)"><i class="fas fa-ad"></i> Adverts</button>
+<button class="admin-tab" onclick="switchAdminTab('subscribers',this)"><i class="fas fa-users"></i> Subscribers</button>
+<button class="admin-tab" onclick="switchAdminTab('settings',this)"><i class="fas fa-cog"></i> Settings</button>
+</div>
+<!-- PUBLISH TAB -->
+<div class="admin-panel-content" id="tab-publish">
+<h3 style="margin-bottom:16px;font-family:'Inter',sans-serif;font-size:16px;">Publish Article</h3>
+<div class="admin-form">
+<div><label>Title *</label><input type="text" id="artTitle" placeholder="Article title"></div>
+<div><label>Category *</label><select id="artCategory"><option>Breaking News</option><option>Uganda News</option><option>Politics</option><option>Business</option><option>Education</option><option>Sports</option><option>Technology</option><option>Health</option><option>Entertainment</option><option>International</option></select></div>
+<div>
+<label>Upload Image *</label>
+<input type="file" id="artImageFile" accept="image/*" onchange="previewFile('artImageFile','artImagePreview')">
+<div class="file-preview" id="artImagePreview"></div>
+<div class="upload-progress" id="imageProgress" style="display:none;"><div class="upload-progress-bar" id="imageProgressBar"></div></div>
+</div>
+<div>
+<label>Upload Video (optional)</label>
+<input type="file" id="artVideoFile" accept="video/*" onchange="previewFile('artVideoFile','artVideoPreview')">
+<div class="file-preview" id="artVideoPreview"></div>
+<div class="upload-progress" id="videoProgress" style="display:none;"><div class="upload-progress-bar" id="videoProgressBar"></div></div>
+</div>
+<div><label>Author</label><input type="text" id="artAuthor" placeholder="Author" value="NEWS SPOT UGANDA"></div>
+<div><label>Summary</label><input type="text" id="artSummary" placeholder="Brief summary"></div>
+<div class="full-width"><label>Content *</label><textarea id="artContent" placeholder="Full article content..."></textarea></div>
+<div class="full-width" style="display:flex;gap:8px;">
+<button class="publish-btn" id="publishBtn" onclick="publishArticle()"><i class="fas fa-paper-plane"></i> Publish</button>
+<button class="publish-btn" style="background:linear-gradient(135deg,#e67e22,#f39c12);" onclick="clearArticleForm()"><i class="fas fa-undo"></i> Clear</button>
+</div>
+</div>
+</div>
+<!-- ARTICLES TAB -->
+<div class="admin-panel-content" id="tab-articles" style="display:none;">
+<h3 style="margin-bottom:16px;font-family:'Inter',sans-serif;font-size:16px;">Manage Articles</h3>
+<div class="admin-articles-list" id="adminArticlesList"></div>
+</div>
+<!-- ADVERTS TAB -->
+<div class="admin-panel-content" id="tab-adverts" style="display:none;">
+<h3 style="margin-bottom:16px;font-family:'Inter',sans-serif;font-size:16px;">Manage Advertisements</h3>
+<p style="color:var(--text-secondary);font-size:13px;margin-bottom:16px;">Create and manage advertisements for subscribers and sponsors.</p>
+<div class="admin-form">
+<div><label>Ad Title *</label><input type="text" id="adTitle" placeholder="Advertisement title"></div>
+<div><label>Advertiser Name *</label><input type="text" id="adAdvertiser" placeholder="Company or person name"></div>
+<div>
+<label>Upload Ad Image *</label>
+<input type="file" id="adImageFile" accept="image/*" onchange="previewFile('adImageFile','adImagePreview')">
+<div class="file-preview" id="adImagePreview"></div>
+<div class="upload-progress" id="adImageProgress" style="display:none;"><div class="upload-progress-bar" id="adImageProgressBar"></div></div>
+</div>
+<div><label>Link URL</label><input type="text" id="adLink" placeholder="https://..."></div>
+<div><label>Contact Phone</label><input type="text" id="adPhone" placeholder="+256..."></div>
+<div><label>Contact Email</label><input type="email" id="adEmail" placeholder="email@example.com"></div>
+<div class="full-width"><label>Description</label><textarea id="adDescription" placeholder="Advertisement description..." style="min-height:80px;"></textarea></div>
+<div><label>Start Date</label><input type="date" id="adStartDate"></div>
+<div><label>End Date</label><input type="date" id="adEndDate"></div>
+<div class="full-width" style="display:flex;gap:8px;">
+<button class="publish-btn" id="publishAdBtn" onclick="publishAd()"><i class="fas fa-bullhorn"></i> Publish Ad</button>
+<button class="publish-btn" style="background:linear-gradient(135deg,#e67e22,#f39c12);" onclick="clearAdForm()"><i class="fas fa-undo"></i> Clear</button>
+</div>
+</div>
+<h4 style="margin-top:24px;margin-bottom:12px;font-family:'Inter',sans-serif;font-size:14px;">Active Advertisements</h4>
+<div class="admin-articles-list" id="adminAdsList"></div>
+</div>
+<!-- SUBSCRIBERS TAB -->
+<div class="admin-panel-content" id="tab-subscribers" style="display:none;">
+<h3 style="margin-bottom:16px;font-family:'Inter',sans-serif;font-size:16px;">Subscribers</h3>
+<div id="subscribersList" style="font-size:13px;"></div>
+</div>
+<!-- SETTINGS TAB -->
+<div class="admin-panel-content" id="tab-settings" style="display:none;">
+<h3 style="margin-bottom:16px;font-family:'Inter',sans-serif;font-size:16px;">Supabase Settings</h3>
+<p style="color:var(--text-secondary);font-size:13px;margin-bottom:16px;">Configure Supabase for full backend functionality including file uploads.</p>
+<div class="admin-form">
+<div><label>Supabase URL</label><input type="text" id="supabaseUrl" placeholder="https://your-project.supabase.co"></div>
+<div><label>Anon Key</label><input type="text" id="supabaseKey" placeholder="your-anon-key"></div>
+<div class="full-width" style="display:flex;gap:8px;">
+<button class="publish-btn" onclick="saveSupabaseConfig()"><i class="fas fa-save"></i> Save</button>
+<button class="publish-btn" style="background:linear-gradient(135deg,var(--secondary),#0066cc);" onclick="testConnection()"><i class="fas fa-plug"></i> Test</button>
+</div>
+</div>
+<details style="margin-top:20px;font-size:12px;color:var(--text-secondary);">
+<summary style="font-weight:600;cursor:pointer;color:var(--secondary);">SQL Setup Guide & Storage Setup</summary>
+<pre style="margin-top:8px;font-size:10px;background:rgba(0,0,0,.05);padding:12px;border-radius:6px;overflow-x:auto;white-space:pre-wrap;">
+-- Create tables
+CREATE TABLE articles (
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+  title TEXT NOT NULL,
+  summary TEXT,
+  content TEXT,
+  category TEXT NOT NULL,
+  image_url TEXT,
+  video_url TEXT,
+  author TEXT DEFAULT 'NEWS SPOT UGANDA',
+  is_breaking BOOLEAN DEFAULT false,
+  views INTEGER DEFAULT 0,
+  created_at TIMESTAMPTZ DEFAULT now()
+);
+
+CREATE TABLE advertisements (
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+  title TEXT NOT NULL,
+  advertiser TEXT NOT NULL,
+  image_url TEXT,
+  link TEXT,
+  phone TEXT,
+  email TEXT,
+  description TEXT,
+  start_date DATE,
+  end_date DATE,
+  is_active BOOLEAN DEFAULT true,
+  created_at TIMESTAMPTZ DEFAULT now()
+);
+
+CREATE TABLE subscribers (
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+  name TEXT NOT NULL,
+  email TEXT UNIQUE NOT NULL,
+  created_at TIMESTAMPTZ DEFAULT now()
+);
+
+CREATE TABLE contacts (
+  id UUID DEFAULT gen_random_uuid() PRIMARY KEY,
+  name TEXT NOT NULL,
+  email TEXT NOT NULL,
+  subject TEXT,
+  message TEXT NOT NULL,
+  created_at TIMESTAMPTZ DEFAULT now()
+);
+
+-- Enable RLS
+ALTER TABLE articles ENABLE ROW LEVEL SECURITY;
+ALTER TABLE advertisements ENABLE ROW LEVEL SECURITY;
+ALTER TABLE subscribers ENABLE ROW LEVEL SECURITY;
+ALTER TABLE contacts ENABLE ROW LEVEL SECURITY;
+
+-- Policies
+CREATE POLICY "Public read" ON articles FOR SELECT USING (true);
+CREATE POLICY "Auth manage" ON articles FOR ALL USING (auth.role() = 'authenticated');
+CREATE POLICY "Public read ads" ON advertisements FOR SELECT USING (true);
+CREATE POLICY "Auth manage ads" ON advertisements FOR ALL USING (auth.role() = 'authenticated');
+CREATE POLICY "Public subscribe" ON subscribers FOR INSERT WITH CHECK (true);
+CREATE POLICY "Auth read subs" ON subscribers FOR SELECT USING (auth.role() = 'authenticated');
+CREATE POLICY "Public contact" ON contacts FOR INSERT WITH CHECK (true);
+
+-- STORAGE SETUP (do this in Supabase Dashboard > Storage):
+-- 1. Create bucket called "media" 
+-- 2. Set it as PUBLIC bucket
+-- 3. Add policy: Allow public read (SELECT)
+-- 4. Add policy: Allow authenticated users to upload (INSERT)
+</pre>
+</details>
+</div>
+</div>
+</div>
+<main>
+<section class="hero" id="home">
+<div class="hero-bg"></div>
+<div class="hero-content">
+<div class="hero-main">
+<div class="hero-badge"><i class="fas fa-bolt"></i> Breaking News</div>
+<h1 class="hero-title">Your Trusted Source for <span>Ugandan News</span></h1>
+<p class="hero-desc">Real-time news from Western Uganda to the world. Breaking stories, politics, business, sports & more.</p>
+<div class="hero-btns">
+<a href="#latest-news" class="btn btn-primary"><i class="fas fa-newspaper"></i> Latest News</a>
+<a href="#subscribe" class="btn btn-outline"><i class="fas fa-bell"></i> Subscribe</a>
+</div>
+</div>
+<div class="hero-cards" id="heroCards"></div>
+</div>
+</section>
+<section class="section" id="latest-news">
+<div class="container">
+<div class="section-header animate-in">
+<h2 class="section-title"><span class="icon"><i class="fas fa-fire"></i></span>Latest News</h2>
+<button class="view-all" onclick="filterCategory('all')">View All</button>
+</div>
+<div class="featured-grid animate-in" id="featuredGrid"></div>
+</div>
+</section>
+<div id="newsSections"></div>
+<section class="section" id="subscribe">
+<div class="container">
+<div class="subscribe-section animate-in">
+<h2><i class="fas fa-bell" style="margin-right:8px;"></i>Stay Updated</h2>
+<p>Get the latest news delivered to your inbox. Never miss a breaking story!</p>
+<div class="subscribe-form">
+<input type="text" id="subName" placeholder="Your Name">
+<input type="email" id="subEmail" placeholder="Your Email">
+<button onclick="subscribe()"><i class="fas fa-paper-plane"></i> Subscribe</button>
+</div>
+<div id="subMsg" style="margin-top:10px;font-size:12px;"></div>
+</div>
+</div>
+</section>
+<section class="section" id="ads">
+<div class="container">
+<div class="section-header animate-in">
+<h2 class="section-title"><span class="icon"><i class="fas fa-bullhorn"></i></span>Advertisements</h2>
+</div>
+<div class="ad-section animate-in">
+<p style="text-align:center;color:var(--text-secondary);font-size:14px;margin-bottom:16px;">Sponsored content from our partners</p>
+<div class="ads-grid" id="adsGrid">
+<div class="ad-placeholder">
+<i class="fas fa-ad" style="font-size:40px;display:block;margin-bottom:12px;color:var(--secondary);"></i>
+<h3 style="margin-bottom:6px;font-size:16px;">Advertise with NEWS SPOT UGANDA</h3>
+<p style="max-width:450px;margin:0 auto 12px;">Reach thousands of Ugandan readers across all categories.</p>
+<p><strong>Contact:</strong> tmwbzbenson@gmail.com | +256776747621</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section" id="contact">
+<div class="container">
+<div class="section-header animate-in">
+<h2 class="section-title"><span class="icon"><i class="fas fa-envelope"></i></span>Contact Us</h2>
+</div>
+<div class="contact-grid animate-in">
+<div class="contact-info">
+<div class="contact-item"><div class="icon-box"><i class="fas fa-map-marker-alt"></i></div><div><h4>Head Office</h4><p>NEWS SPOT UGANDA<br>Western Uganda</p></div></div>
+<div class="contact-item"><div class="icon-box"><i class="fab fa-whatsapp"></i></div><div><h4>WhatsApp</h4><p><a href="https://wa.me/256776747621" style="color:var(--secondary);">+256 776 747 621</a></p></div></div>
+<div class="contact-item"><div class="icon-box"><i class="fas fa-phone-alt"></i></div><div><h4>Help Desk</h4><p>+256 783 683 677</p></div></div>
+<div class="contact-item"><div class="icon-box"><i class="fas fa-headset"></i></div><div><h4>Support</h4><p>+256 704 499 447</p></div></div>
+<div class="contact-item"><div class="icon-box"><i class="fas fa-envelope"></i></div><div><h4>Email</h4><p><a href="mailto:tmwbzbenson@gmail.com" style="color:var(--secondary);">tmwbzbenson@gmail.com</a></p></div></div>
+</div>
+<div class="contact-form">
+<h3 style="font-family:'Inter',sans-serif;font-size:16px;font-weight:700;margin-bottom:3px;">Send Message</h3>
+<p style="font-size:12px;color:var(--text-secondary);margin-bottom:8px;">We'd love to hear from you.</p>
+<input type="text" id="contactName" placeholder="Your Name" required>
+<input type="email" id="contactEmail" placeholder="Your Email" required>
+<input type="text" id="contactSubject" placeholder="Subject">
+<textarea id="contactMessage" placeholder="Your Message..." required></textarea>
+<button onclick="submitContact()"><i class="fas fa-paper-plane"></i> Send</button>
+<div id="contactMsg" style="font-size:12px;margin-top:5px;"></div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-col">
+<div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+<div class="logo-icon" style="width:38px;height:38px;font-size:14px;">NS</div>
+<div><div style="font-weight:800;font-size:14px;">NEWS SPOT</div><div style="font-size:9px;color:var(--accent);letter-spacing:1.5px;">UGANDA</div></div>
+</div>
+<p>Your trusted source for breaking news and real-time updates from Uganda.</p>
+<div class="footer-social">
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-youtube"></i></a>
+<a href="https://wa.me/256776747621"><i class="fab fa-whatsapp"></i></a>
+</div>
+</div>
+<div class="footer-col">
+<h4>Quick Links</h4>
+<ul>
+<li><a href="#home"><i class="fas fa-chevron-right" style="font-size:9px;"></i> Home</a></li>
+<li><a href="#uganda-news"><i class="fas fa-chevron-right" style="font-size:9px;"></i> Uganda News</a></li>
+<li><a href="#politics"><i class="fas fa-chevron-right" style="font-size:9px;"></i> Politics</a></li>
+<li><a href="#business"><i class="fas fa-chevron-right" style="font-size:9px;"></i> Business</a></li>
+<li><a href="#sports"><i class="fas fa-chevron-right" style="font-size:9px;"></i> Sports</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Categories</h4>
+<ul>
+<li><a href="#education"><i class="fas fa-chevron-right" style="font-size:9px;"></i> Education</a></li>
+<li><a href="#technology"><i class="fas fa-chevron-right" style="font-size:9px;"></i> Technology</a></li>
+<li><a href="#health"><i class="fas fa-chevron-right" style="font-size:9px;"></i> Health</a></li>
+<li><a href="#entertainment"><i class="fas fa-chevron-right" style="font-size:9px;"></i> Entertainment</a></li>
+<li><a href="#international"><i class="fas fa-chevron-right" style="font-size:9px;"></i> International</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Contact</h4>
+<ul>
+<li><a href="https://wa.me/256776747621"><i class="fab fa-whatsapp"></i> +256 776 747 621</a></li>
+<li><a href="tel:+256783683677"><i class="fas fa-phone-alt"></i> +256 783 683 677</a></li>
+<li><a href="mailto:tmwbzbenson@gmail.com"><i class="fas fa-envelope"></i> tmwbzbenson@gmail.com</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+<div class="ug-colors"><span style="background:#000;"></span><span style="background:#FCDC04;"></span><span style="background:#D90000;"></span><span style="background:#000;"></span><span style="background:#FCDC04;"></span><span style="background:#D90000;"></span></div>
+&copy; <span id="footerYear"></span> NEWS SPOT UGANDA. All rights reserved. 🇺🇬
+</div>
+</footer>
+<button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fas fa-chevron-up"></i></button>
+<div class="toast" id="toast"></div>
+<script>
+const SUPABASE_URL=localStorage.getItem('sb_url')||'',SUPABASE_KEY=localStorage.getItem('sb_key')||'';
+let supabase=null,isAdmin=false,currentSession=null,allArticles=[],allAds=[],editingId=null,editingAdId=null;
+const categoryConfig={'Breaking News':{icon:'fa-bolt',color:'#D90000'},'Uganda News':{icon:'fa-flag',color:'#0A3D62'},'Politics':{icon:'fa-landmark',color:'#8B0000'},'Business':{icon:'fa-chart-line',color:'#2E86C1'},'Education':{icon:'fa-graduation-cap',color:'#27AE60'},'Sports':{icon:'fa-futbol',color:'#E67E22'},'Technology':{icon:'fa-microchip',color:'#8E44AD'},'Health':{icon:'fa-heartbeat',color:'#E74C3C'},'Entertainment':{icon:'fa-music',color:'#F39C12'},'International':{icon:'fa-globe-africa',color:'#1ABC9C'}};
+const demoArticles=[
+{id:'d1',title:'Uganda Marks Major Economic Milestone with Record GDP Growth',summary:'The Ugandan economy has recorded its highest growth rate in a decade, driven by agriculture and technology sectors.',content:'The Ugandan economy has recorded its highest growth rate in a decade, driven by agriculture, manufacturing, and the technology sector. The Ministry of Finance announced a 7.2% GDP growth rate.\n\nKey sectors contributing include agricultural exports with a 15% increase, the technology startup ecosystem attracting over $200 million in foreign investment, and infrastructure development across the country.',category:'Business',image_url:'https://images.pexels.com/photos/38101663/pexels-photo-38101663.jpeg?auto=compress&cs=tinysrgb&w=800',video_url:'',author:'NEWS SPOT UGANDA',is_breaking:true,views:2450,created_at:'2025-01-15T10:00:00Z'},
+{id:'d2',title:'Parliament Debates New Education Reform Bill',summary:'Members of Parliament reviewing comprehensive education reform bill aimed at modernizing Uganda\'s curriculum.',content:'Members of Parliament are reviewing a comprehensive education reform bill aimed at modernizing Uganda\'s school curriculum and improving teacher training programs nationwide.\n\nThe proposed bill includes digital literacy in all primary schools, increased funding for rural education infrastructure, and integration of vocational training.',category:'Politics',image_url:'https://images.pexels.com/photos/14501973/pexels-photo-14501973.jpeg?auto=compress&cs=tinysrgb&w=800',video_url:'',author:'Political Desk',is_breaking:false,views:1820,created_at:'2025-01-15T07:00:00Z'},
+{id:'d3',title:'Ministry of Health Launches Nationwide Vaccination Campaign',summary:'New vaccination drive targets preventable diseases, aiming to immunize over 5 million children.',content:'The Ministry of Health has launched a comprehensive nationwide vaccination campaign targeting preventable diseases in children under five.\n\nThe campaign aims to immunize over 5 million children across all 146 districts. Health workers have been deployed to remote areas with mobile vaccination units.',category:'Health',image_url:'https://images.pexels.com/photos/19957220/pexels-photo-19957220.jpeg?auto=compress&cs=tinysrgb&w=800',video_url:'',author:'Health Desk',is_breaking:false,views:1540,created_at:'2025-01-14T14:00:00Z'},
+{id:'d4',title:'Uganda Cranes Prepare for AFCON Qualifiers',summary:'National football team intensifies training for crucial AFCON qualification matches.',content:'The Uganda Cranes national football team has intensified training sessions ahead of the crucial African Cup of Nations qualification matches.\n\nHead Coach has called up 25 players including new talents from the Uganda Premier League and European leagues.',category:'Sports',image_url:'https://images.pexels.com/photos/20431293/pexels-photo-20431293.jpeg?auto=compress&cs=tinysrgb&w=800',video_url:'',author:'Sports Desk',is_breaking:false,views:3200,created_at:'2025-01-14T12:00:00Z'},
+{id:'d5',title:'Ugandan Tech Startups Attract Record Investment',summary:'Technology ecosystem attracts $200M in foreign investment, cementing position as rising tech hub.',content:'Uganda\'s technology startup ecosystem has attracted a record $200 million in foreign investment over the past year.\n\nKey sectors include fintech, agricultural technology, health tech innovations, and educational technology platforms.',category:'Technology',image_url:'https://images.pexels.com/photos/8370349/pexels-photo-8370349.jpeg?auto=compress&cs=tinysrgb&w=800',video_url:'',author:'Tech Desk',is_breaking:false,views:2100,created_at:'2025-01-14T09:00:00Z'},
+{id:'d6',title:'Western Uganda Tourism Sees 40% Growth',summary:'National parks report significant increases in both domestic and international tourism.',content:'The tourism sector in Western Uganda has experienced remarkable growth, with visitor numbers increasing by 40%.\n\nGorilla trekking remains the flagship attraction, with permits selling out months in advance.',category:'Uganda News',image_url:'https://images.pexels.com/photos/38101727/pexels-photo-38101727.jpeg?auto=compress&cs=tinysrgb&w=800',video_url:'',author:'NEWS SPOT UGANDA',is_breaking:false,views:1780,created_at:'2025-01-13T16:00:00Z'},
+{id:'d7',title:'East African Music Festival Showcases Ugandan Talent',summary:'Annual festival puts Ugandan musical talent in the international spotlight.',content:'The annual East African Music Festival held in Kampala has put Ugandan musical talent in the international spotlight.\n\nThe three-day event attracted over 50,000 attendees and featured performances from emerging and established artists.',category:'Entertainment',image_url:'https://images.pexels.com/photos/34015049/pexels-photo-34015049.jpeg?auto=compress&cs=tinysrgb&w=800',video_url:'',author:'Entertainment Desk',is_breaking:false,views:2800,created_at:'2025-01-13T10:00:00Z'},
+{id:'d8',title:'University Partnerships Transform Higher Education',summary:'International partnerships bring new programs and scholarships for Ugandan students.',content:'Several Ugandan universities have signed landmark partnership agreements with prestigious international institutions.\n\nNew programs in artificial intelligence, renewable energy, and public policy have been launched.',category:'Education',image_url:'https://images.pexels.com/photos/11484114/pexels-photo-11484114.jpeg?auto=compress&cs=tinysrgb&w=800',video_url:'',author:'Education Desk',is_breaking:false,views:1350,created_at:'2025-01-12T15:00:00Z'},
+{id:'d9',title:'EAC Summit Addresses Regional Trade and Security',summary:'Leaders from EAC member states convene to discuss trade and infrastructure development.',content:'Leaders from East African Community member states have convened for an important summit addressing regional trade, security, and infrastructure.\n\nKey agenda items include harmonization of trade policies and joint security operations.',category:'International',image_url:'https://images.pexels.com/photos/32266769/pexels-photo-32266769.jpeg?auto=compress&cs=tinysrgb&w=800',video_url:'',author:'International Desk',is_breaking:false,views:1650,created_at:'2025-01-12T08:00:00Z'},
+{id:'d10',title:'Uganda Premier League Opens with Spectacular Ceremony',summary:'New UPL season begins with exciting opening ceremony and thrilling matches.',content:'The new Uganda Premier League season has kicked off with a spectacular opening ceremony at Mandela National Stadium.\n\nFirst-round matches delivered exciting football with several upsets and impressive performances.',category:'Sports',image_url:'https://images.pexels.com/photos/20431296/pexels-photo-20431296.jpeg?auto=compress&cs=tinysrgb&w=800',video_url:'',author:'Sports Desk',is_breaking:false,views:2900,created_at:'2025-01-11T14:00:00Z'}
+];
+
+function init(){
+document.getElementById('footerYear').textContent=new Date().getFullYear();
+const t=localStorage.getItem('theme')||'light';
+document.documentElement.setAttribute('data-theme',t);
+document.querySelector('#themeBtn i').className=t==='dark'?'fas fa-sun':'fas fa-moon';
+allArticles=[...demoArticles];
+if(SUPABASE_URL&&SUPABASE_KEY){loadSupabase()}else{renderAll()}
+setupObserver();setupScroll();
+document.getElementById('supabaseUrl').value=SUPABASE_URL;
+document.getElementById('supabaseKey').value=SUPABASE_KEY;
+}
+
+function loadSupabase(){
+const s=document.createElement('script');
+s.src='https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js';
+s.onload=async()=>{
+try{
+supabase=window.supabase.createClient(SUPABASE_URL,SUPABASE_KEY);
+const{data}=await supabase.from('articles').select('*').order('created_at',{ascending:false});
+if(data&&data.length)allArticles=data;
+const{data:adsData}=await supabase.from('advertisements').select('*').eq('is_active',true).order('created_at',{ascending:false});
+if(adsData)allAds=adsData;
+const{data:{session}}=await supabase.auth.getSession();
+if(session){currentSession=session;isAdmin=true}
+supabase.channel('changes').on('postgres_changes',{event:'*',schema:'public',table:'articles'},()=>{loadData()}).on('postgres_changes',{event:'*',schema:'public',table:'advertisements'},()=>{loadData()}).subscribe();
+}catch(e){console.warn(e)}
+renderAll();
+};
+document.head.appendChild(s);
+}
+
+async function loadData(){
+if(!supabase)return;
+try{
+const{data}=await supabase.from('articles').select('*').order('created_at',{ascending:false});
+if(data&&data.length)allArticles=data;
+const{data:adsData}=await supabase.from('advertisements').select('*').eq('is_active',true).order('created_at',{ascending:false});
+if(adsData)allAds=adsData;
+renderAll();
+}catch(e){}
+}
+
+function renderAll(){renderHeroCards();renderFeatured();renderNewsSections();renderAds();updateStats()}
+
+function renderHeroCards(){
+const c=document.getElementById('heroCards');
+c.innerHTML=allArticles.slice(0,3).map(a=>`
+<div class="hero-card" onclick="openArticle('${a.id}')">
+<img src="${a.image_url||''}" alt="" loading="lazy" width="70" height="50">
+<div class="hero-card-text"><h4>${esc(a.title)}</h4><p><i class="far fa-clock"></i> ${timeAgo(a.created_at)}</p></div>
+</div>`).join('');
+}
+
+function renderFeatured(){
+const g=document.getElementById('featuredGrid');
+if(!allArticles.length){g.innerHTML='<p>No articles yet.</p>';return}
+const f=allArticles[0],side=allArticles.slice(1,5);
+g.innerHTML=`
+<div class="featured-main" onclick="openArticle('${f.id}')">
+<img src="${f.image_url||''}" alt="" loading="lazy">
+<div class="overlay">
+${f.is_breaking?'<span class="breaking-badge"><i class="fas fa-bolt"></i> BREAKING</span>':''}
+<h2 style="margin-top:6px;">${esc(f.title)}</h2>
+<p>${esc(f.summary||'')}</p>
+</div>
+</div>
+<div class="featured-sidebar">${side.map(a=>`
+<div class="featured-side-card" onclick="openArticle('${a.id}')">
+<img src="${a.image_url||''}" alt="" loading="lazy" width="80" height="60">
+<div><h4>${esc(a.title)}</h4><div class="meta"><i class="far fa-clock"></i> ${timeAgo(a.created_at)} • ${a.category}</div></div>
+</div>`).join('')}</div>`;
+}
+
+function renderNewsSections(){
+const c=document.getElementById('newsSections');
+const cats=['Breaking News','Uganda News','Politics','Business','Education','Sports','Technology','Health','Entertainment','International'];
+let h='';
+cats.forEach(cat=>{
+const arts=allArticles.filter(a=>a.category===cat);
+if(!arts.length)return;
+const cfg=categoryConfig[cat]||{icon:'fa-newspaper',color:'var(--secondary)'};
+const sid=cat.toLowerCase().replace(/\s+/g,'-');
+h+=`<section class="section" id="${sid}"><div class="container">
+<div class="section-header animate-in"><h2 class="section-title"><span class="icon" style="background:linear-gradient(135deg,${cfg.color},${cfg.color}dd);"><i class="fas ${cfg.icon}"></i></span>${cat}${cat==='Breaking News'?'<span class="breaking-badge" style="margin-left:6px;"><i class="fas fa-bolt"></i> LIVE</span>':''}</h2><button class="view-all" onclick="filterCategory('${cat}')">View All</button></div>
+<div class="news-grid animate-in">${arts.map(renderCard).join('')}</div>
+</div></section>`;
+});
+c.innerHTML=h;
+setupObserver();
+}
+
+function renderCard(a){
+const d=new Date(a.created_at).toLocaleDateString('en-UG',{year:'numeric',month:'short',day:'numeric'});
+const v=a.video_url&&a.video_url.trim();
+const cfg=categoryConfig[a.category]||{icon:'fa-newspaper',color:'var(--secondary)'};
+return`<div class="news-card" onclick="openArticle('${a.id}')">
+<div class="news-card-img">
+<img src="${a.image_url||''}" alt="" loading="lazy" width="280" height="180">
+<span class="category-badge" style="background:${cfg.color};">${a.category}</span>
+${v?'<span class="video-badge"><i class="fas fa-play"></i></span>':''}
+${a.is_breaking?'<span class="breaking-badge" style="position:absolute;bottom:10px;left:10px;"><i class="fas fa-bolt"></i> BREAKING</span>':''}
+</div>
+<div class="news-card-body">
+<h3>${esc(a.title)}</h3>
+<p>${esc(a.summary||'')}</p>
+<div class="news-card-meta"><span class="date"><i class="far fa-clock"></i> ${d}</span><button class="read-more-btn"><span>Read</span> <i class="fas fa-arrow-right"></i></button></div>
+</div></div>`;
+}
+
+function renderAds(){
+const g=document.getElementById('adsGrid');
+if(!allAds.length){
+g.innerHTML=`<div class="ad-placeholder">
+<i class="fas fa-ad" style="font-size:40px;display:block;margin-bottom:12px;color:var(--secondary);"></i>
+<h3 style="margin-bottom:6px;font-size:16px;">Advertise with NEWS SPOT UGANDA</h3>
+<p style="max-width:450px;margin:0 auto 12px;">Reach thousands of Ugandan readers across all categories.</p>
+<p><strong>Contact:</strong> tmwbzbenson@gmail.com | +256776747621</p>
+</div>`;
+return;
+}
+g.innerHTML=allAds.map(ad=>`
+<div class="ad-card">
+<img src="${ad.image_url||''}" alt="${esc(ad.title)}" loading="lazy">
+<div class="ad-card-body">
+<h4>${esc(ad.title)}</h4>
+<p>${esc(ad.description||'')}</p>
+${ad.link?`<a href="${ad.link}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Learn More</a>`:''}
+${ad.phone?`<p style="margin-top:6px;font-size:11px;"><i class="fas fa-phone"></i> ${ad.phone}</p>`:''}
+</div>
+</div>`).join('');
+}
+
+function openArticle(id){
+const a=allArticles.find(x=>x.id===id);if(!a)return;
+document.getElementById('modalImg').src=a.image_url||'';
+document.getElementById('modalCat').textContent=a.category;
+document.getElementById('modalTitle').textContent=a.title;
+document.getElementById('modalDate').innerHTML='<i class="far fa-clock"></i> '+new Date(a.created_at).toLocaleDateString('en-UG',{year:'numeric',month:'long',day:'numeric'});
+document.getElementById('modalAuthor').innerHTML='<i class="far fa-user"></i> '+(a.author||'NEWS SPOT UGANDA');
+let vh='';
+if(a.video_url){
+if(a.video_url.includes('youtube'))vh=`<div class="video-container"><iframe src="${a.video_url}" allowfullscreen loading="lazy"></iframe></div>`;
+else vh=`<div class="video-container"><video controls><source src="${a.video_url}" type="video/mp4"></video></div>`;
+}
+document.getElementById('modalVideo').innerHTML=vh;
+document.getElementById('modalBody').innerHTML=(a.content||a.summary||'').split('\n').map(p=>p.trim()?`<p style="margin-bottom:12px;">${esc(p)}</p>`:'').join('');
+document.getElementById('articleModal').classList.add('open');
+document.body.style.overflow='hidden';
+if(supabase&&!a.id.startsWith('d'))supabase.from('articles').update({views:(a.views||0)+1}).eq('id',a.id).then();
+}
+function closeModal(){document.getElementById('articleModal').classList.remove('open');document.body.style.overflow='';document.getElementById('modalVideo').innerHTML=''}
+
+function openSearch(){document.getElementById('searchOverlay').classList.add('open');document.getElementById('searchInput').focus();document.body.style.overflow='hidden'}
+function closeSearch(){document.getElementById('searchOverlay').classList.remove('open');document.getElementById('searchInput').value='';document.getElementById('searchResults').innerHTML='';document.body.style.overflow=''}
+function performSearch(q){
+const r=document.getElementById('searchResults');
+if(q.length<2){r.innerHTML='';return}
+const ql=q.toLowerCase();
+const f=allArticles.filter(a=>a.title.toLowerCase().includes(ql)||a.category.toLowerCase().includes(ql)||(a.summary||'').toLowerCase().includes(ql));
+if(!f.length){r.innerHTML='<p style="color:rgba(255,255,255,.5);text-align:center;padding:24px;">No results</p>';return}
+r.innerHTML=f.map(a=>`<div class="search-result-item" onclick="closeSearch();openArticle('${a.id}');"><img src="${a.image_url||''}" alt="" loading="lazy" width="60" height="45"><div><h4>${esc(a.title)}</h4><p>${a.category} • ${new Date(a.created_at).toLocaleDateString()}</p></div></div>`).join('');
+}
+function filterCategory(c){openSearch();document.getElementById('searchInput').value=c==='all'?'':c;performSearch(c==='all'?'  ':c)}
+
+function toggleTheme(){const c=document.documentElement.getAttribute('data-theme'),n=c==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',n);localStorage.setItem('theme',n);document.querySelector('#themeBtn i').className=n==='dark'?'fas fa-sun':'fas fa-moon'}
+function toggleMobileMenu(){document.getElementById('mobileMenu').classList.toggle('open')}
+
+async function subscribe(){
+const n=document.getElementById('subName').value.trim(),e=document.getElementById('subEmail').value.trim(),m=document.getElementById('subMsg');
+if(!n||!e){m.innerHTML='<span style="color:#D90000;">Enter name and email.</span>';return}
+if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)){m.innerHTML='<span style="color:#D90000;">Invalid email.</span>';return}
+if(supabase){try{const{error}=await supabase.from('subscribers').insert([{name:n,email:e}]);if(error){m.innerHTML='<span style="color:var(--accent);">'+error.message+'</span>';return}}catch(x){}}
+m.innerHTML='<span style="color:#2ecc71;">✅ Subscribed! Thanks '+esc(n)+'!</span>';
+showToast('Subscribed! 🎉');
+document.getElementById('subName').value='';document.getElementById('subEmail').value='';
+if('Notification'in window&&Notification.permission==='default')Notification.requestPermission();
+}
+
+async function submitContact(){
+const n=document.getElementById('contactName').value.trim(),e=document.getElementById('contactEmail').value.trim(),s=document.getElementById('contactSubject').value.trim(),msg=document.getElementById('contactMessage').value.trim(),m=document.getElementById('contactMsg');
+if(!n||!e||!msg){m.innerHTML='<span style="color:#D90000;">Fill required fields.</span>';return}
+if(supabase){try{await supabase.from('contacts').insert([{name:n,email:e,subject:s,message:msg}])}catch(x){}}
+m.innerHTML='<span style="color:#2ecc71;">✅ Sent!</span>';showToast('Message sent! 📩');
+['contactName','contactEmail','contactSubject','contactMessage'].forEach(i=>document.getElementById(i).value='');
+}
+
+// File preview
+function previewFile(inputId,previewId){
+const input=document.getElementById(inputId);
+const preview=document.getElementById(previewId);
+if(!input.files||!input.files[0]){preview.innerHTML='';return}
+const file=input.files[0];
+const url=URL.createObjectURL(file);
+if(file.type.startsWith('image/')){
+preview.innerHTML=`<img src="${url}" alt="Preview">`;
+}else if(file.type.startsWith('video/')){
+preview.innerHTML=`<video src="${url}" controls></video>`;
+}
+}
+
+// Upload file to Supabase Storage
+async function uploadFile(file,bucket='media'){
+if(!supabase){showToast('Configure Supabase first!',true);return null}
+const ext=file.name.split('.').pop();
+const fileName=`${Date.now()}_${Math.random().toString(36).substr(2,9)}.${ext}`;
+const{data,error}=await supabase.storage.from(bucket).upload(fileName,file,{cacheControl:'3600',upsert:false});
+if(error){showToast('Upload failed: '+error.message,true);return null}
+const{data:{publicUrl}}=supabase.storage.from(bucket).getPublicUrl(fileName);
+return publicUrl;
+}
+
+// Admin
+function openAdmin(){if(isAdmin)showDashboard();else{document.getElementById('adminOverlay').classList.add('open');document.body.style.overflow='hidden'}}
+function closeAdmin(){document.getElementById('adminOverlay').classList.remove('open');document.body.style.overflow=''}
+async function adminLogin(){
+const e=document.getElementById('adminEmail').value.trim(),p=document.getElementById('adminPassword').value.trim(),err=document.getElementById('loginError');
+if(!e||!p){err.textContent='Enter email and password.';err.style.display='block';return}
+if(supabase){try{const{data,error}=await supabase.auth.signInWithPassword({email:e,password:p});if(error){err.textContent=error.message;err.style.display='block';return}currentSession=data.session;isAdmin=true;closeAdmin();showDashboard();showToast('Welcome! 🔐');return}catch(x){}}
+err.textContent='Configure Supabase for auth.';err.style.display='block';
+setTimeout(()=>{if(confirm('Demo mode? (Files won\'t upload)')){isAdmin=true;closeAdmin();showDashboard();showToast('Demo mode.')}},500);
+}
+async function adminLogout(){if(supabase)await supabase.auth.signOut();isAdmin=false;currentSession=null;document.getElementById('adminDashboard').classList.remove('open');document.body.style.overflow='';showToast('Logged out.')}
+function showDashboard(){document.getElementById('adminDashboard').classList.add('open');document.body.style.overflow='hidden';updateStats();renderAdminArticles();renderAdminAds();loadSubscribers()}
+function closeDashboard(){document.getElementById('adminDashboard').classList.remove('open');document.body.style.overflow=''}
+function switchAdminTab(t,b){document.querySelectorAll('[id^="tab-"]').forEach(x=>x.style.display='none');document.getElementById('tab-'+t).style.display='block';document.querySelectorAll('.admin-tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');if(t==='articles')renderAdminArticles();if(t==='adverts')renderAdminAds();if(t==='subscribers')loadSubscribers()}
+function updateStats(){
+document.getElementById('statArticles').textContent=allArticles.length;
+document.getElementById('statAds').textContent=allAds.length;
+document.getElementById('statViews').textContent=allArticles.reduce((s,a)=>s+(a.views||0),0).toLocaleString();
+}
+function renderAdminArticles(){document.getElementById('adminArticlesList').innerHTML=allArticles.length?allArticles.map(a=>`<div class="admin-article-item"><div><h4>${esc(a.title)}</h4><span style="font-size:10px;color:var(--text-secondary);">${a.category} • ${new Date(a.created_at).toLocaleDateString()}</span></div><div class="actions"><button class="btn-edit" onclick="editArticle('${a.id}')"><i class="fas fa-edit"></i></button><button class="btn-delete" onclick="deleteArticle('${a.id}')"><i class="fas fa-trash"></i></button></div></div>`).join(''):'<p style="color:var(--text-secondary);">No articles yet.</p>'}
+function renderAdminAds(){document.getElementById('adminAdsList').innerHTML=allAds.length?allAds.map(a=>`<div class="admin-article-item"><div><h4>${esc(a.title)}</h4><span style="font-size:10px;color:var(--text-secondary);">${a.advertiser} • ${a.start_date||'No date'}</span></div><div class="actions"><button class="btn-edit" onclick="editAd('${a.id}')"><i class="fas fa-edit"></i></button><button class="btn-delete" onclick="deleteAd('${a.id}')"><i class="fas fa-trash"></i></button></div></div>`).join(''):'<p style="color:var(--text-secondary);">No advertisements yet.</p>'}
+
+// Publish Article
+async function publishArticle(){
+const btn=document.getElementById('publishBtn');
+const t=document.getElementById('artTitle').value.trim();
+const content=document.getElementById('artContent').value.trim();
+if(!t){showToast('Enter title.',true);return}
+if(!content){showToast('Enter content.',true);return}
+
+btn.disabled=true;btn.innerHTML='<i class="fas fa-spinner fa-spin"></i> Publishing...';
+
+let imageUrl='',videoUrl='';
+const imgFile=document.getElementById('artImageFile').files[0];
+const vidFile=document.getElementById('artVideoFile').files[0];
+
+// Upload image
+if(imgFile){
+document.getElementById('imageProgress').style.display='block';
+document.getElementById('imageProgressBar').style.width='50%';
+imageUrl=await uploadFile(imgFile);
+document.getElementById('imageProgressBar').style.width='100%';
+if(!imageUrl&&!editingId){btn.disabled=false;btn.innerHTML='<i class="fas fa-paper-plane"></i> Publish';return}
+}
+
+// Upload video
+if(vidFile){
+document.getElementById('videoProgress').style.display='block';
+document.getElementById('videoProgressBar').style.width='50%';
+videoUrl=await uploadFile(vidFile);
+document.getElementById('videoProgressBar').style.width='100%';
+}
+
+const article={
+title:t,
+category:document.getElementById('artCategory').value,
+image_url:imageUrl||undefined,
+video_url:videoUrl||undefined,
+author:document.getElementById('artAuthor').value.trim()||'NEWS SPOT UGANDA',
+summary:document.getElementById('artSummary').value.trim(),
+content:content,
+is_breaking:document.getElementById('artCategory').value==='Breaking News',
+views:0,
+created_at:new Date().toISOString()
+};
+
+if(supabase&&!(editingId||'').startsWith('d')){
+try{
+if(editingId){
+const updateData={...article};
+if(!imageUrl)delete updateData.image_url;
+if(!videoUrl)delete updateData.video_url;
+await supabase.from('articles').update(updateData).eq('id',editingId);
+}else{
+const{data}=await supabase.from('articles').insert([article]).select();
+if(data)article.id=data[0].id;
+}
+}catch(e){showToast('Error: '+e.message,true)}
+}
+
+if(editingId){
+const i=allArticles.findIndex(x=>x.id===editingId);
+if(i>=0){
+if(imageUrl)allArticles[i].image_url=imageUrl;
+if(videoUrl)allArticles[i].video_url=videoUrl;
+Object.assign(allArticles[i],{title:article.title,category:article.category,author:article.author,summary:article.summary,content:article.content,is_breaking:article.is_breaking});
+}
+editingId=null;
+showToast('Updated! ✏️');
+}else{
+article.id='local_'+Date.now();
+if(!imageUrl)article.image_url='https://images.pexels.com/photos/38101663/pexels-photo-38101663.jpeg?auto=compress&cs=tinysrgb&w=800';
+allArticles.unshift(article);
+showToast('Published! 🎉');
+}
+
+btn.disabled=false;btn.innerHTML='<i class="fas fa-paper-plane"></i> Publish';
+document.getElementById('imageProgress').style.display='none';
+document.getElementById('videoProgress').style.display='none';
+clearArticleForm();renderAll();renderAdminArticles();
+}
+
+function editArticle(id){
+const a=allArticles.find(x=>x.id===id);if(!a)return;
+editingId=id;
+document.getElementById('artTitle').value=a.title||'';
+document.getElementById('artCategory').value=a.category||'Uganda News';
+document.getElementById('artAuthor').value=a.author||'';
+document.getElementById('artSummary').value=a.summary||'';
+document.getElementById('artContent').value=a.content||'';
+if(a.image_url)document.getElementById('artImagePreview').innerHTML=`<img src="${a.image_url}" alt="Current">`;
+if(a.video_url)document.getElementById('artVideoPreview').innerHTML=`<video src="${a.video_url}" controls></video>`;
+switchAdminTab('publish',document.querySelector('.admin-tab'));
+showToast('Editing article...');
+}
+
+async function deleteArticle(id){
+if(!confirm('Delete this article?'))return;
+if(supabase&&!id.startsWith('d')&&!id.startsWith('local_')){try{await supabase.from('articles').delete().eq('id',id)}catch(e){}}
+allArticles=allArticles.filter(a=>a.id!==id);
+renderAll();renderAdminArticles();showToast('Deleted.');
+}
+
+function clearArticleForm(){
+editingId=null;
+['artTitle','artSummary','artContent'].forEach(i=>document.getElementById(i).value='');
+document.getElementById('artCategory').value='Breaking News';
+document.getElementById('artAuthor').value='NEWS SPOT UGANDA';
+document.getElementById('artImageFile').value='';
+document.getElementById('artVideoFile').value='';
+document.getElementById('artImagePreview').innerHTML='';
+document.getElementById('artVideoPreview').innerHTML='';
+}
+
+// Publish Ad
+async function publishAd(){
+const btn=document.getElementById('publishAdBtn');
+const t=document.getElementById('adTitle').value.trim();
+const adv=document.getElementById('adAdvertiser').value.trim();
+if(!t||!adv){showToast('Enter title and advertiser.',true);return}
+
+btn.disabled=true;btn.innerHTML='<i class="fas fa-spinner fa-spin"></i> Publishing...';
+
+let imageUrl='';
+const imgFile=document.getElementById('adImageFile').files[0];
+
+if(imgFile){
+document.getElementById('adImageProgress').style.display='block';
+document.getElementById('adImageProgressBar').style.width='50%';
+imageUrl=await uploadFile(imgFile);
+document.getElementById('adImageProgressBar').style.width='100%';
+if(!imageUrl&&!editingAdId){btn.disabled=false;btn.innerHTML='<i class="fas fa-bullhorn"></i> Publish Ad';return}
+}
+
+const ad={
+title:t,
+advertiser:adv,
+image_url:imageUrl||undefined,
+link:document.getElementById('adLink').value.trim()||null,
+phone:document.getElementById('adPhone').value.trim()||null,
+email:document.getElementById('adEmail').value.trim()||null,
+description:document.getElementById('adDescription').value.trim()||null,
+start_date:document.getElementById('adStartDate').value||null,
+end_date:document.getElementById('adEndDate').value||null,
+is_active:true,
+created_at:new Date().toISOString()
+};
+
+if(supabase){
+try{
+if(editingAdId){
+const updateData={...ad};
+if(!imageUrl)delete updateData.image_url;
+await supabase.from('advertisements').update(updateData).eq('id',editingAdId);
+}else{
+const{data}=await supabase.from('advertisements').insert([ad]).select();
+if(data)ad.id=data[0].id;
+}
+}catch(e){showToast('Error: '+e.message,true)}
+}
+
+if(editingAdId){
+const i=allAds.findIndex(x=>x.id===editingAdId);
+if(i>=0){
+if(imageUrl)allAds[i].image_url=imageUrl;
+Object.assign(allAds[i],{title:ad.title,advertiser:ad.advertiser,link:ad.link,phone:ad.phone,email:ad.email,description:ad.description,start_date:ad.start_date,end_date:ad.end_date});
+}
+editingAdId=null;
+showToast('Ad updated! ✏️');
+}else{
+ad.id='ad_'+Date.now();
+if(!imageUrl)ad.image_url='https://images.pexels.com/photos/3183169/pexels-photo-3183169.jpeg?auto=compress&cs=tinysrgb&w=800';
+allAds.unshift(ad);
+showToast('Ad published! 🎉');
+}
+
+btn.disabled=false;btn.innerHTML='<i class="fas fa-bullhorn"></i> Publish Ad';
+document.getElementById('adImageProgress').style.display='none';
+clearAdForm();renderAds();renderAdminAds();updateStats();
+}
+
+function editAd(id){
+const a=allAds.find(x=>x.id===id);if(!a)return;
+editingAdId=id;
+document.getElementById('adTitle').value=a.title||'';
+document.getElementById('adAdvertiser').value=a.advertiser||'';
+document.getElementById('adLink').value=a.link||'';
+document.getElementById('adPhone').value=a.phone||'';
+document.getElementById('adEmail').value=a.email||'';
+document.getElementById('adDescription').value=a.description||'';
+document.getElementById('adStartDate').value=a.start_date||'';
+document.getElementById('adEndDate').value=a.end_date||'';
+if(a.image_url)document.getElementById('adImagePreview').innerHTML=`<img src="${a.image_url}" alt="Current">`;
+switchAdminTab('adverts',document.querySelectorAll('.admin-tab')[2]);
+showToast('Editing ad...');
+}
+
+async function deleteAd(id){
+if(!confirm('Delete this advertisement?'))return;
+if(supabase&&!id.startsWith('ad_')){try{await supabase.from('advertisements').delete().eq('id',id)}catch(e){}}
+allAds=allAds.filter(a=>a.id!==id);
+renderAds();renderAdminAds();updateStats();showToast('Ad deleted.');
+}
+
+function clearAdForm(){
+editingAdId=null;
+['adTitle','adAdvertiser','adLink','adPhone','adEmail','adDescription','adStartDate','adEndDate'].forEach(i=>document.getElementById(i).value='');
+document.getElementById('adImageFile').value='';
+document.getElementById('adImagePreview').innerHTML='';
+}
+
+async function loadSubscribers(){
+const el=document.getElementById('subscribersList');
+if(supabase){
+try{
+const{data}=await supabase.from('subscribers').select('*').order('created_at',{ascending:false});
+if(data&&data.length){
+document.getElementById('statSubscribers').textContent=data.length;
+el.innerHTML=`<table style="width:100%;border-collapse:collapse;font-size:12px;"><thead><tr style="text-align:left;border-bottom:2px solid var(--glass-border);"><th style="padding:8px;">Name</th><th style="padding:8px;">Email</th><th style="padding:8px;">Date</th></tr></thead><tbody>${data.map(s=>`<tr style="border-bottom:1px solid var(--glass-border);"><td style="padding:8px;">${esc(s.name)}</td><td style="padding:8px;">${esc(s.email)}</td><td style="padding:8px;">${new Date(s.created_at).toLocaleDateString()}</td></tr>`).join('')}</tbody></table>`;
+return;
+}
+}catch(e){}
+}
+el.innerHTML='<p style="color:var(--text-secondary);">No subscribers or Supabase not configured.</p>';
+}
+
+function saveSupabaseConfig(){
+const u=document.getElementById('supabaseUrl').value.trim(),k=document.getElementById('supabaseKey').value.trim();
+if(!u||!k){showToast('Enter URL and Key.',true);return}
+localStorage.setItem('sb_url',u);localStorage.setItem('sb_key',k);
+showToast('Saved! Reloading...');setTimeout(()=>location.reload(),1200);
+}
+
+async function testConnection(){
+const u=document.getElementById('supabaseUrl').value.trim(),k=document.getElementById('supabaseKey').value.trim();
+if(!u||!k){showToast('Enter URL & Key.',true);return}
+try{
+const tc=window.supabase.createClient(u,k);
+const{error}=await tc.from('articles').select('id',{count:'exact',head:true});
+if(error)throw error;
+showToast('Connected! ✅');
+}catch(e){showToast('Failed: '+e.message,true)}
+}
+
+function esc(s){if(!s)return'';const d=document.createElement('div');d.textContent=s;return d.innerHTML}
+function timeAgo(d){const s=Math.floor((Date.now()-new Date(d))/1e3);if(s<60)return'Just now';if(s<3600)return Math.floor(s/60)+'m ago';if(s<86400)return Math.floor(s/3600)+'h ago';return Math.floor(s/86400)+'d ago'}
+function showToast(m,e=false){const t=document.getElementById('toast');t.textContent=m;t.className='toast show'+(e?' error':'');setTimeout(()=>t.classList.remove('show'),3e3)}
+
+function setupObserver(){
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:.1,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.animate-in').forEach(el=>io.observe(el));
+}
+
+function setupScroll(){
+const nav=document.getElementById('navbar'),btt=document.getElementById('backToTop'),links=document.querySelectorAll('.nav-links a');
+let ticking=false;
+window.addEventListener('scroll',()=>{
+if(!ticking){window.requestAnimationFrame(()=>{
+const y=window.scrollY;
+nav.classList.toggle('scrolled',y>40);
+btt.classList.toggle('visible',y>400);
+const sects=document.querySelectorAll('section[id]');
+let cur='';sects.forEach(s=>{if(y>=s.offsetTop-90)cur=s.id});
+links.forEach(l=>{l.classList.toggle('active',l.getAttribute('href')==='#'+cur)});
+ticking=false;
+});}ticking=true;
+});
+}
+
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeSearch();closeModal();closeAdmin()}if((e.ctrlKey||e.metaKey)&&e.key==='k'){e.preventDefault();openSearch()}});
+document.getElementById('articleModal').addEventListener('click',e=>{if(e.target===document.getElementById('articleModal'))closeModal()});
+document.getElementById('searchOverlay').addEventListener('click',e=>{if(e.target===document.getElementById('searchOverlay'))closeSearch()});
+
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
+</script>
+</body>
+</html>
