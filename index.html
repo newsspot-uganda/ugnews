@@ -230,7 +230,6 @@ h1,h2,h3,h4{font-family:'Playfair Display',Georgia,serif}
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
 <body>
 <div class="ticker-bar">
@@ -526,8 +525,7 @@ CREATE POLICY "Auth manage" ON articles FOR ALL USING (auth.role() = 'authentica
 <button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fas fa-chevron-up"></i></button>
 <div class="toast" id="toast"></div>
 <script>
-const SUPABASE_URL='https://cmhycbwqvtqkynmlxlkf.supabase.co',
-SUPABASE_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNtaHljYndxdnRxa3lubWx4bGtmIiwicm9sZSI6ImFub24iLCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNtaHljYndxdnRxa3lubWx4bGtmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE0NDEyNzUsImV4cCI6MjA5NzAxNzI3NX0.CeILZa5Gamgi8d607IGh6mv2GgSPNPxwDmsSWbSdJI8';
+const SUPABASE_URL=localStorage.getItem('sb_url')||'',SUPABASE_KEY=localStorage.getItem('sb_key')||'';
 let supabase=null,isAdmin=false,currentSession=null,allArticles=[],editingId=null;
 const categoryConfig={'Breaking News':{icon:'fa-bolt',color:'#D90000'},'Uganda News':{icon:'fa-flag',color:'#0A3D62'},'Politics':{icon:'fa-landmark',color:'#8B0000'},'Business':{icon:'fa-chart-line',color:'#2E86C1'},'Education':{icon:'fa-graduation-cap',color:'#27AE60'},'Sports':{icon:'fa-futbol',color:'#E67E22'},'Technology':{icon:'fa-microchip',color:'#8E44AD'},'Health':{icon:'fa-heartbeat',color:'#E74C3C'},'Entertainment':{icon:'fa-music',color:'#F39C12'},'International':{icon:'fa-globe-africa',color:'#1ABC9C'}};
 const demoArticles=[
@@ -551,7 +549,7 @@ const t=localStorage.getItem('theme')||'light';
 document.documentElement.setAttribute('data-theme',t);
 document.querySelector('#themeBtn i').className=t==='dark'?'fas fa-sun':'fas fa-moon';
 allArticles=[...demoArticles];
-loadSupabase();
+if(SUPABASE_URL&&SUPABASE_KEY){loadSupabase()}else{renderAll()}
 setupObserver();setupScroll();
 document.getElementById('supabaseUrl').value=SUPABASE_URL;
 document.getElementById('supabaseKey').value=SUPABASE_KEY;
