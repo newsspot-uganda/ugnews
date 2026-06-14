@@ -1163,5 +1163,23 @@ document.getElementById('searchOverlay').addEventListener('click',e=>{if(e.targe
 
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 </script>
+
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+
+
+<script>
+const supabaseUrl = "https://cmhycbwqvtqkynmlxlkf.supabase.coL";
+const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNtaHljYndxdnRxa3lubWx4bGtmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE0NDEyNzUsImV4cCI6MjA5NzAxNzI3NX0.CeILZa5Gamgi8d607IGh6mv2GgSPNPxwDmsSWbSdJI8Y";
+
+const supabaseClient = window.supabase.createClient(
+  supabaseUrl,
+  supabaseKey
+);
+</script>
+
+
+  
 </body>
 </html>
